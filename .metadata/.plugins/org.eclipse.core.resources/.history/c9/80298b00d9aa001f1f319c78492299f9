@@ -1,0 +1,25 @@
+package com.codeWithAkshay.www;
+
+
+public class CollectionApp 
+{
+	class  Inner
+	{
+		public void display()
+		{
+			System.out.println("This is a Inner class Method...!!");
+		}
+	}
+	public void method1()
+	{
+		Inner i=new Inner();
+		i.display();
+		System.out.println("This is a Method 1 ");
+	}
+	public static void main(String[] args)
+	{
+		CollectionApp collectionApp=new CollectionApp();
+		collectionApp.method1();
+
+	}
+}

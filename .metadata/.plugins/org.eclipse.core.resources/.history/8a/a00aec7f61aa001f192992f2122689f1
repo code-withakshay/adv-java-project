@@ -1,0 +1,9 @@
+package com.codeWithAkshay.www;
+
+public class CompileTimePolymor 
+{
+	public void display()
+	{
+		System.out.println("This is CompileTimePolymor Class-Method...!");
+	}
+}

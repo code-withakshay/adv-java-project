@@ -1,0 +1,33 @@
+package com.codeWithAkshay.www;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Set;
+
+public class CollectionApp 
+{
+	public static void main(String[] args) 
+	{
+		String str="This is is a java class class";
+		
+		String[] sarr=str.split(" ");
+		
+		Map<String,Integer> map=new LinkedHashMap<String,Integer>();
+		
+		for(Strng s:sarr)
+		{
+			if(map.get(s)!=null)
+			{
+				map.put(s, map.get(s)+1);
+			}
+			else
+			{
+				map.put(s,1);
+			}
+		}
+		map.forEach((key,value)->System.out.print(key+"="+value+" "));
+	}
+}

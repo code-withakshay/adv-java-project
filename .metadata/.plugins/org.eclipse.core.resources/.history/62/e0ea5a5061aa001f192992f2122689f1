@@ -1,0 +1,9 @@
+package com.codeWithAkshay.www;
+
+public class MethodHiddingCls 
+{
+	public void display()
+	{
+		System.out.println("This is MethodHiddingCls Class-Method...!");
+	}
+}

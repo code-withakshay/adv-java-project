@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html >
+	<title>Welcome Page... Code_With_Akshay</title>
+<head>
+    <style>
+        /* Basic reset for margins and padding */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Center the form on the page */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: coral;
+        }
+
+        /* Style the form container */
+        form {
+            width: 400px;
+            padding: 30px;
+            background: #ffffff;
+            border-radius: 10px;
+      
+        }
+		form:hover
+		{
+		 box-shadow: 0px 4px 20px rgba(0, 0, 0, 1);
+		}
+        /* Table styling */
+        table {
+            width: 100%;
+        }
+
+        td {
+            padding: 10px;
+            vertical-align: middle;
+        }
+
+        /* Styling labels */
+        td:first-child {
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Styling inputs */
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        /* Style submit and reset buttons */
+        input[type="submit"],
+        input[type="reset"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        /* Colors for buttons */
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        input[type="reset"] {
+            background-color: #f44336;
+            color: white;
+        }
+
+        /* Hover effects for buttons */
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        input[type="reset"]:hover {
+            background-color: #d32f2f;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="test" method="GET">
+        <table align="center">
+            <tr>
+                <td>No:</td>
+                <td><input type="text" name="t1" /></td>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="t2" /></td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><input type="text" name="t3" /></td>
+            </tr>
+            <tr>
+                <td>Roll No:</td>
+                <td><input type="text" name="t4" /></td>
+            </tr>
+            <tr>
+                <td><input type="reset" value="Reset" /></td>
+                <td><input type="submit" value="Submit" /></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

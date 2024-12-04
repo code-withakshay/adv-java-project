@@ -1,0 +1,12 @@
+package com.codeWithAkshay.www;
+
+
+public class CollectionApp 
+{
+	public static void main(String[] args)
+	{
+		String str="a-k*sh@a#_y";
+		String str1=str.replaceAll("[^a-zA-Z]"," ");
+		System.out.println(str1);
+	}
+}

@@ -1,0 +1,16 @@
+package com.codeWithAkshay.www;
+
+
+public class CollectionApp 
+{
+	public static void main(String[] args)
+	{
+		String str1="Akshay";
+		String str2="akshay";
+		
+		if(str1.equals(str2))
+			System.out.println("Both are equals");
+		else
+			System.out.println("Both are not equals");
+	}
+}

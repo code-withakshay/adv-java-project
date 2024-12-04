@@ -1,0 +1,14 @@
+package com.codeWithAkshay.www;
+
+
+public class CollectionApp 
+{
+	public static void main(String[] args)throws Exception 
+	{
+		CompileTimePolymor ctm=new CompileTimePolymor();
+		
+		System.out.println(ctm.add(10, 20));
+		System.out.println(ctm.add(10, 20, 30));
+		System.out.println(ctm.add(10, 20, 10));
+	}
+}
